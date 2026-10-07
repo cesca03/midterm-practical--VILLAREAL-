@@ -1,0 +1,375 @@
+/* ================================
+   FRANCESCA VILLAREAL MAKEUP SERVICES
+   ================================ */
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: #4a3838;
+    background-color: #fff9f7;
+}
+
+/* ================================
+   HEADER
+   ================================ */
+
+header {
+    background-color: #f3dede;
+    text-align: center;
+    padding-top: 40px;
+}
+
+header h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 42px;
+    color: #6f3f48;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #76595d;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* ================================
+   NAVIGATION
+   ================================ */
+
+nav {
+    background-color: #6f3f48;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav li {
+    margin: 0;
+}
+
+nav a {
+    display: block;
+    padding: 16px 24px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #a86b75;
+    color: white;
+}
+
+/* ================================
+   MAIN
+   ================================ */
+
+main {
+    max-width: 1100px;
+    margin: auto;
+}
+
+section {
+    padding: 60px 30px;
+    border-bottom: 1px solid #ead6d2;
+}
+
+section h2 {
+    text-align: center;
+    font-family: Georgia, "Times New Roman", serif;
+    color: #6f3f48;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+section h3 {
+    font-family: Georgia, "Times New Roman", serif;
+    color: #8c505c;
+    font-size: 23px;
+    margin-bottom: 12px;
+}
+
+/* ================================
+   ABOUT
+   ================================ */
+
+#about {
+    text-align: center;
+}
+
+#about img {
+    width: 600px;
+    max-width: 100%;
+    margin: 0 auto 25px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(70, 40, 45, 0.18);
+}
+
+#about p {
+    max-width: 800px;
+    margin: 15px auto;
+    color: #5d4a4d;
+}
+
+/* ================================
+   SERVICES
+   ================================ */
+
+#services {
+    text-align: center;
+}
+
+#services article {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin: 1%;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ead6d2;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(70, 40, 45, 0.1);
+}
+
+#services article img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+#services article p {
+    color: #665356;
+}
+
+/* ================================
+   PRICING TABLE
+   ================================ */
+
+#pricing {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 5px 15px rgba(70, 40, 45, 0.1);
+}
+
+caption {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #6f3f48;
+    margin-bottom: 15px;
+}
+
+th,
+td {
+    padding: 15px;
+    border: 1px solid #dcc4c0;
+    text-align: left;
+}
+
+thead th {
+    background-color: #6f3f48;
+    color: white;
+}
+
+tbody th {
+    background-color: #faefed;
+    color: #6f3f48;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #fff8f6;
+}
+
+tbody tr:hover {
+    background-color: #f3dede;
+}
+
+/* ================================
+   BOOKING FORM
+   ================================ */
+
+#booking {
+    max-width: 800px;
+    margin: auto;
+}
+
+#booking > p {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+form {
+    background-color: white;
+    padding: 35px;
+    border-radius: 10px;
+    border: 1px solid #ead6d2;
+    box-shadow: 0 5px 20px rgba(70, 40, 45, 0.1);
+}
+
+form div {
+    margin-bottom: 18px;
+}
+
+label {
+    display: block;
+    color: #6f3f48;
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cdb5b1;
+    border-radius: 5px;
+    background-color: #fffdfc;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #4a3838;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: 2px solid #a86b75;
+    border-color: #6f3f48;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="checkbox"] {
+    width: auto;
+    margin-right: 8px;
+}
+
+input[type="checkbox"] + label {
+    display: inline;
+    font-weight: normal;
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    background-color: #6f3f48;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #a86b75;
+}
+
+/* ================================
+   CONTACT
+   ================================ */
+
+#contact {
+    text-align: center;
+}
+
+#contact p {
+    margin: 10px 0;
+}
+
+#contact a {
+    color: #8c505c;
+    font-weight: bold;
+}
+
+#contact a:hover {
+    color: #6f3f48;
+}
+
+/* ================================
+   FOOTER
+   ================================ */
+
+footer {
+    background-color: #6f3f48;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+/* ================================
+   MOBILE / RESPONSIVE DESIGN
+   ================================ */
+
+@media (max-width: 768px) {
+
+    header h1 {
+        font-size: 32px;
+    }
+
+    header p {
+        font-size: 16px;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav a {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    section {
+        padding: 40px 20px;
+    }
+
+    #services article {
+        display: block;
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    table {
+        font-size: 14px;
+    }
+
+    th,
+    td {
+        padding: 10px;
+    }
+
+    form {
+        padding: 20px;
+    }
+}
